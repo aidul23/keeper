@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #eee;
+    padding: 0 16px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+header h1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p {
+    color: #ccc;
+}
+
+.note {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 16px;
+    width: 240px;
+    box-shadow: 0 2px 5px #ccc;
+    float: left;
+}
+
+.note h2 {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.note p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.add-note-container {
+    display: flex;
+    justify-content: center;
+}
+
+.add-note {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0 2px 5px #ccc;
+    float: left;
+    position: relative;
+    height: auto;
+}
+
+.add-note input {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.add-note textarea {
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.input-note:focus {
+    overflow-y: auto; /* Show vertical scrollbar when focused */
+}
+
+.add-note input.input-title {
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+
+*:focus {
+    outline: none;
+}
+
+.button {
+    border: none;
+    background-color: #f5ba13;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    right: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.button-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #f5ba13;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    right: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.icon {
+    fill: white;
+    stroke: white;
+    font-size: 1.5em;
+    text-align: center;
+}
