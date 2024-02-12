@@ -1,7 +1,14 @@
-# Getting Started with Create React App
+# Keeper - A Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a todo application called Keeper. Built using ReactJS
 
+### Built with
+
+<p align="center">
+    <img width="200" src="./public/React-icon.png">
+</p>
+
+ Keeper built with [React]([https://nuxt.com](https://react.dev/))
 ## Available Scripts
 
 In the project directory, you can run:
