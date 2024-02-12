@@ -5,7 +5,7 @@ This project is a todo application called Keeper. Built using ReactJS
 ### Built with
 
 <p align="center">
-    <img width="200" src="public/React-icon.png">
+    <img width="200" src="./public/React-icon.png">
 </p>
 
  Keeper built with [React]([https://nuxt.com](https://react.dev/))
