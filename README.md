@@ -5,10 +5,21 @@ This project is a todo application called Keeper. Built using ReactJS
 ### Built with
 
 <p align="center">
-    <img width="100" src="./public/React-icon.png">
+    <img width="100" src="./public/app-preview.png">
 </p>
 
  Keeper built with [React](https://react.dev/)
+
+## Preview
+
+<p align="center">
+  <a href="https://blog.nurriyad.xyz" target="_blank">
+    <img width="1090" src="./public/.png">
+    <br>
+    Live Demo
+  </a>
+</p>
+
 ## Available Scripts
 
 In the project directory, you can run:
