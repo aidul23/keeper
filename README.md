@@ -2,7 +2,7 @@
 
 This project is a todo application called Keeper. Built using ReactJS
 
-### Built with
+## Built with
 
 <p align="center">
     <img width="100" src="./public/React-icon.png">
